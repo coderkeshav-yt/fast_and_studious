@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link href="./output.css" rel="stylesheet">
+  <link href="./extra.css" rel="stylesheet">
+  <link rel="icon" href="assets/logo.png" type="image/x-icon">
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&family=Exo+2:ital,wght@0,600;0,700;1,700&family=Space+Grotesk:wght@300..700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.7/themes/odometer-theme-default.css"
+    integrity="sha512-kMPqFnKueEwgQFzXLEEl671aHhQqrZLS5IP3HzqdfozaST/EgU+/wkM07JCmXFAt9GO810I//8DBonsJUzGQsQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Fast And Studious</title>
+</head>
+
+<body class="flex items-center flex-col overflow-x-hidden"
+  style="background: url(./assets/bs.webp) no-repeat fixed; background-size: cover; background-position: 70%;">
+
+
+  <!-- alert section -->
+  <p id="alert"
+    class="center-item w-screen h-8 text-white bg-[#DF4658] sticky top-0 text-center z-50 font-semibold italic">
+    Secure 99 percentile in your JEE <a
+      href="https://jeewithajay.classx.co.in/new-courses/25-ungli-pakad-mentorship-2025"
+      class="bg-white text-center rounded-sm px-2 ml-3 text-[#DF4658] my-1">Join
+      here</a>
+  </p>
+
+
+  <!-- Navbar Section -->
+  <nav class=" h-[60px] center-item sticky top-8 left-0 w-screen z-50 slow bg-white shadow-md">
+    <div class="w-11/12 h-fit flex items-center justify-between">
+      <div id="imgContainer" class="w-12">
+        <img src="assets/ajay.webp" alt="FnS" class="w-full rounded-full" loading="eager">
+      </div>
+
+      <i id="navIcon" class="invisible cursor-pointer relative w-5 z-40"><img class="absolute" id="burger"
+          src="assets/illustrations/burger.webp" alt="" width="20"> <img class="invisible absolute" id="cross"
+          src="assets/illustrations/cross.webp" width="20" alt=""></i>
+      <ul id="navLinkContainer" class=" md:w-[700px] flex justify-between items-center w-0 slow">
+        <li class="navItem"><a href="#hero">Home</a></li>
+        <li class="navItem"><a href="#toppers">Reviews</a></li>
+        <li class="navItem"><a href="#courses">Courses</a></li>
+        <li class="navItem"><a href="#mentors">Mentors</a></li>
+        <li class="navItem"><a href="#material">Study Material</a></li>
+        <!-- <li class="navItem"><a href="#reviews">Testimonials</a></li> -->
+        <li class="navItem"><a href="#work">Work with us</a></li>
+        <li id="getapp" class="navItem ml-4"><a
+            href="https://play.google.com/store/apps/details?id=com.jeewithajay.app"><button class="px-5 py-2">Get
+              App</button></a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- Hero Section -->
+  <section id="hero" class=" center-item w-screen bg-[#080008c1] text-white">
+    <div id="heroCenter" class=" h-3/4 flex justify-around items-center w-4/5">
+      <div class=" w-1/2">
+        <h1>Secure <span id="auto-type" class="highligted-text"></span></h1>
+        <h1>with personalized Guidance</h1>
+        <p class=" text-base my-4 text-[#c9c9c9]">
+          Experience the real 'baap' of all mentorship program for jee with our personalized one-on-one mentoring at
+          India's
+          most affordable price. We produce real improvements and results that exceed all expectations.
+        </p>
+        <a href="https://jeewithajay.classx.co.in/new-courses/37-zidd-mentorship-2026">
+          <button class="opacity-0">Explore Mentorship</button>
+        </a>
+      </div>
+      <div class="w-2/5 opacity-0 invisible"></div>
+    </div>
+  </section>
+
+  <div class=" w-screen flex items-center flex-col bg-[#F4F6ED] pt-6"
+    style="background-image: url(./assets/background.webp); background-attachment: fixed; background-size: cover;">
+
+
+    <!-- whatsapp Icon -->
+    <a href="https://wa.me/7988115265" target="_blank" class="whatsapp">
+      <img src="./assets/illustrations/whatsapp.svg" width="50px" alt="">
+      <h4 class=" text-black font-bold">Your mentor</h4>
+    </a>
+
+
+    <!-- Introduction Section -->
+    <section id="introSection" class="h-fit center-item">
+      <div id="intro"
+        class=" bg-white rounded-lg h-fit w-[90vw] sm:w-[70vw] px-6 py-10 flex justify-center items-center shadow-md shadow-hover">
+        <div class="w-fit h-fit overflow-hidden rounded-full">
+          <img src="assets/ajay.webp" alt="" class=" sm:w-[150px] w-[100px]">
+        </div>
+        <div class="w-fit flex flex-col md:justify-center lg:items-start items-center lg:h-40 h-fit lg:ml-24">
+          <h4 class="-ml-2 mb-4 lg:text-4xl text-3xl font-bold text-center" style="font-family: 'Exo 2', sans-serif;">
+            Who
+            is
+            <span class="highligted-text">Ajay Singh</span>?
+          </h4>
+          <ul class="flex lg:block flex-col justify-center">
+            <li>
+              <img src="assets/illustrations/star.webp" alt="">
+              Running India's most result producing mentorship program.
+            </li>
+            <li>
+              <img src="assets/illustrations/star.webp" alt="">
+              10,000+ students excelled through Zidd Mentorship.
+            </li>
+            <li>
+              <img src="assets/illustrations/star.webp" alt="">
+              Our YouTube channel inspires millions.
+            </li>
+            <li>
+              <img src="assets/illustrations/star.webp" alt="">
+              Mentored 100s of 99 percentilers.
+            </li>
+            <li>
+              <img src="assets/illustrations/star.webp" alt="">
+              Earned a title 'Bhaiya we deserve' from the aspirants all over India
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Result Section -->
+    <section id="result" class=" h-fit">
+
+      <div class=" w-full aspect-[2707/699]">
+        <img src="./assets/banner.webp" alt="" class="rounded-md" loading="lazy">
+      </div>
+
+      <h2 class="">Our Outcome: Preferred by <span class="highligted-text">Achievers</span></h2>
+      <div id="resultCenter" class="result-center w-[80vw] h-fit bg-white flex justify-around rounded-lg shadow-md">
+        <div class="result-item">
+          <h3 id="percentile"><span class="highligted-text nums" style="margin: 0px !important;">0</span><span
+              class="highligted-text" style="margin: 0 !important;">%</span></h3>
+          <p>Excelled as a result of our Mentorship</p>
+        </div>
+        <div class="result-item">
+          <h3 id="lessPercentile"><span class="highligted-text nums" style="margin: 0 !important;">0</span><span
+              class="highligted-text" style="margin: 0 !important;">+</span></h3>
+          <p>Aspiring individuals have already enrolled</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- video review section -->
+    <section id="videoSection">
+      <h2 class="p-0 m-0 flex flex-wrap">Some of our <span class="highligted-text"> Student's </span>
+        reviews</h2>
+      <div class="swiper w-full">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper ">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div>
+              <div class="video-container1">
+                <iframe src="https://www.youtube.com/embed/juhNrorF05c?si=8kOsoK-mtXRgDJLA" title="YouTube video player"
+                  frameborder="0" loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div>
+              <div class="video-container1">
+                <iframe src="https://www.youtube.com/embed/SGxQ1Owziwg" title="YouTube video player" frameborder="0"
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div>
+              <div class="video-container1">
+                <iframe src="https://www.youtube.com/embed/YzwW0R-q3pE?si=sEDduNsza7fV68J0" title="YouTube video player"
+                  frameborder="0" loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div>
+              <div class="video-container1">
+                <iframe src="https://www.youtube.com/embed/R0HDWI1e9oA?si=i7deL7xyCzGOFgix" title="YouTube video player"
+                  frameborder="0" loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div>
+              <div class="video-container1">
+                <iframe src="https://www.youtube.com/embed/p5B9uISc5jY?si=ECHUnMWO6481Cs9S" title="YouTube video player"
+                  frameborder="0" loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <img src="./assets/illustrations/arrow.webp" alt="" class="swiper-button swiper-button-prev rotate-180">
+        <img src="./assets/illustrations/arrow.webp" alt="" class="swiper-button swiper-button-next">
+      </div>
+    </section>
+
+    <!-- topper Review Section -->
+    <section id="videoReview" class=" flex items-center flex-col">
+      <h2 id="videoReviewHead" class="h-fit text-right flex flex-wrap">Top performers in
+        <span class="highligted-text">Jee</span>
+        and the list ....
+      </h2>
+
+      <div id="reviewCenter" class=" w-full flex items-center p-3 relative overflow-x-hidden rfm-marquee-container2">
+        <ul id="reviewItem-container" class="rfm-marquee2 reviewItem-container flex h-fit w-fit">
+          <!-- <div id="videoReviewCenter" class=" flex justify-around">
+        <ul id="videoItems-container" class="w-1/3 flex"> -->
+          <li class="video-item">
+            <div class="video-container">
+              <img src="./assets/toppers/1.webp" alt="">
+            </div>
+          </li>
+          <li class="video-item">
+            <div class="video-container">
+              <img src="./assets/toppers/2.webp" alt="">
+            </div>
+          </li>
+          <li class="video-item">
+            <div class="video-container">
+              <img src="./assets/toppers/6.webp" alt="">
+            </div>
+          </li>
+          <li class="video-item">
+            <div class="video-container">
+              <img src="./assets/toppers/8.webp" alt="">
+            </div>
+          </li>
+          <li class="video-item">
+            <div class="video-container">
+              <img src="./assets/toppers/9.webp" alt="">
+            </div>
+          </li>
+          <li class="video-item">
+            <div class="video-container">
+              <img src="./assets/toppers/3.webp" alt="">
+            </div>
+          </li>
+          <li class="video-item">
+            <div class="video-container">
+              <img src="./assets/toppers/4.webp" alt="">
+            </div>
+          </li>
+          <li class="video-item">
+            <div class="video-container">
+              <img src="./assets/toppers/5.webp" alt="">
+            </div>
+          </li>
+        </ul>
+        <ul id="reviewItem-container" class="rfm-marquee2 reviewItem-container flex h-fit w-fit">
+          <!-- <div id="videoReviewCenter" class=" flex justify-around">
+        <ul id="videoItems-container" class="w-1/3 flex"> -->
+          <li class="video-item">
+            <div class="video-container">
+              <img src="./assets/toppers/1.webp" alt="">
+            </div>
+          </li>
+          <li class="video-item">
+            <div class="video-container">
+              <img src="./assets/toppers/2.webp" alt="">
+            </div>
+          </li>
+          <li class="video-item">
+            <div class="video-container">
+              <img src="./assets/toppers/6.webp" alt="">
+            </div>
+          </li>
+          <li class="video-item">
+            <div class="video-container">
+              <img src="./assets/toppers/8.webp" alt="">
+            </div>
+          </li>
+          <li class="video-item">
+            <div class="video-container">
+              <img src="./assets/toppers/9.webp" alt="">
+            </div>
+          </li>
+          <li class="video-item">
+            <div class="video-container">
+              <img src="./assets/toppers/3.webp" alt="">
+            </div>
+          </li>
+          <li class="video-item">
+            <div class="video-container">
+              <img src="./assets/toppers/4.webp" alt="">
+            </div>
+          </li>
+          <li class="video-item">
+            <div class="video-container">
+              <img src="./assets/toppers/5.webp" alt="">
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+
+    <!-- Review Section(even though it is written topper) -->
+    <section id="toppers" class="flex justify-around items-center h-fit">
+      <h2 class="">Directly from <br><span class="highligted-text">DMs</span>
+        <br>
+        <p class="text-xl"><a href="https://drive.google.com/drive/folders/1-2d1KMXThzJHAVk8EfJ862PnuMfho_Xq"
+            target="_blank" class="red-text hover:underline">Click here</a> to read all
+          reviews</p>
+      </h2>
+      <div class="relative w-fit flex items-center">
+        <button id="prevBtn" class=" rotate-180" style="padding: 0px; background-color: transparent;"><img
+            src="assets/illustrations/arrow.webp" alt="<" width="30"></button>
+        <div id="carousel" class="rounded-lg w-[22vw] h-fit overflow-hidden">
+          <ul id="slideList" class="w-fit h-fit flex transition-transform duration-500 ease-in-out">
+            <li class="slide-item">
+              <img src="assets/reviews/r1.webp" alt="" class="rounded-md" loading="lazy">
+            </li>
+            <li class="slide-item">
+              <img src="assets/reviews/r2.webp" alt="" class="rounded-md" loading="lazy">
+            </li>
+            <li class="slide-item">
+              <img src="assets/reviews/r3.webp" alt="" class="rounded-md" loading="lazy">
+            </li>
+            <li class="slide-item">
+              <img src="assets/reviews/r4.webp" alt="" class="rounded-md" loading="lazy">
+            </li>
+            <li class="slide-item">
+              <img src="assets/reviews/r5.webp" alt="" class="rounded-md" loading="lazy">
+            </li>
+            <li class="slide-item">
+              <img src="assets/reviews/r6.webp" alt="" class="rounded-md" loading="lazy">
+            </li>
+            <li class="slide-item">
+              <img src="assets/reviews/r7.webp" alt="" class="rounded-md" loading="lazy">
+            </li>
+            <li class="slide-item">
+              <img src="assets/reviews/r8.webp" alt="" class="rounded-md" loading="lazy">
+            </li>
+            <li class="slide-item">
+              <img src="assets/reviews/r9.webp" alt="" class="rounded-md" loading="lazy">
+            </li>
+            <li class="slide-item">
+              <img src="assets/reviews/r10.webp" alt="" class="rounded-md" loading="lazy">
+            </li>
+            <li class="slide-item">
+              <img src="assets/reviews/r11.webp" alt="" class="rounded-md" loading="lazy">
+            </li>
+            <li class="slide-item">
+              <img src="assets/reviews/r12.webp" alt="" class="rounded-md" loading="lazy">
+            </li>
+            <li class="slide-item">
+              <img src="assets/reviews/r13.webp" alt="" class="rounded-md" loading="lazy">
+            </li>
+            <li class="slide-item">
+              <img src="assets/reviews/r14.webp" alt="" class="rounded-md" loading="lazy">
+            </li>
+            <li class="slide-item">
+              <img src="assets/reviews/r15.webp" alt="" class="rounded-md" loading="lazy">
+            </li>
+            <li class="slide-item">
+              <img src="assets/reviews/r16.webp" alt="" class="rounded-md" loading="lazy">
+            </li>
+            <li class="slide-item">
+              <img src="assets/reviews/r17.webp" alt="" class="rounded-md" loading="lazy">
+            </li>
+            <li class="slide-item">
+              <img src="assets/reviews/r18.webp" alt="" class="rounded-md" loading="lazy">
+            </li>
+            <li class="slide-item">
+              <img src="assets/reviews/r19.webp" alt="" class="rounded-md" loading="lazy">
+            </li>
+            <li class="slide-item">
+              <img src="assets/reviews/r20.webp" alt="" class="rounded-md" loading="lazy">
+            </li>
+            <li class="slide-item">
+              <img src="assets/reviews/r21.webp" alt="" class="rounded-md" loading="lazy">
+            </li>
+            <li class="slide-item">
+              <img src="assets/reviews/r22.webp" alt="" class="rounded-md" loading="lazy">
+            </li>
+            <li class="slide-item">
+              <img src="assets/reviews/r23.webp" alt="" class="rounded-md" loading="lazy">
+            </li>
+            <li class="slide-item">
+              <img src="assets/reviews/r24.webp" alt="" class="rounded-md" loading="lazy">
+            </li>
+            <li class="slide-item">
+              <img src="assets/reviews/r25.webp" alt="" class="rounded-md" loading="lazy">
+            </li>
+            <li class="slide-item">
+              <img src="assets/reviews/r26.webp" alt="" class="rounded-md" loading="lazy">
+            </li>
+            <li class="slide-item">
+              <img src="assets/reviews/r27.webp" alt="" class="rounded-md" loading="lazy">
+            </li>
+          </ul>
+        </div>
+        <button id="nextBtn" style="padding: 0px; background-color: transparent;"><img
+            src="assets/illustrations/arrow.webp" alt=">" width="30"></button>
+      </div>
+
+    </section>
+
+    <!-- Course Section -->
+    <section id="courses" class="center-item flex-col">
+      <h2>Our Courses </h2>
+      <div id="coursesCenter" class="center-item flex-wrap">
+        <div class="course-item">
+          <span>Most
+            Trusted</span>
+          <img src="./assets/courses/2.webp" alt="">
+          <div class="course-detail">
+            <h3>Ungli pakad Mentorship-2025
+            </h3>
+            <a href="https://jeewithajay.classx.co.in/new-courses/25-ungli-pakad-mentorship-2025">
+              <button>Explore Mentorship</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="course-item">
+          <span>Most Trusted</span>
+          <img src="./assets/courses/1.webp" alt="">
+          <div class="course-detail">
+            <h3>Ungli pakad Mentorship-2026
+            </h3>
+            <a href="https://jeewithajay.classx.co.in/new-courses/37-ungli-pakad-mentorship-2026">
+              <button>Explore Mentorship</button>
+            </a>
+          </div>
+        </div>
+
+        <!-- <div class="course-item">
+          <span>Reduced Syllabus</span>
+          <img src="./assets/courses/3.jpg" alt="">
+          <div class="course-detail">
+            <h3>FnS Test Series Program
+            </h3>
+            <a href="https://jeewithajay.classx.co.in/new-courses/20-fns-test-series-program-2023-24">
+              <button>Explore Tests</button>
+            </a>
+          </div>
+        </div>
+        <div class="course-item">
+          <span>Best Selling</span>
+          <img src="./assets/courses/4.jpg" alt="">
+          <div class="course-detail">
+            <h3>Super 21 - Ajay Singh - 2025
+            </h3>
+            <a href="https://jeewithajay.classx.co.in/new-courses/27-super-21-2025">
+              <button>Explore Courses</button>
+            </a>
+          </div>
+        </div> -->
+
+      </div>
+    </section>
+
+    <!-- Know Your Mentors -->
+    <section id="mentors" class="flex flex-wrap justify-around items-center">
+      <h2>Know Your
+        <span class="highligted-text">
+          Mentors
+        </span>
+      </h2>
+      <div class=" md:w-1/2 w-full">
+        <iframe class="w-full aspect-video rounded-md"
+          src="https://www.youtube.com/embed//DO6JvbtdZaA?si=zHaa7naBy6A3FVZt" title="YouTube video player"
+          frameborder="0" loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!-- Study Material -->
+    <section id="material" class="center-item flex-col">
+      <h2>Study Material<span class="highligted-text">(Free)</span></h2>
+      <div id="materialCenter" class=" rounded-lg w-[80vw] flex flex-wrap justify-center">
+        <li class="material-itemcontainer">
+          <div class="material-items">
+            <img src="assets/illustrations/notes.webp" alt="">
+            <h3>Jee short notes
+            </h3>
+            <a href="https://jeewithajay.classx.co.in/study-material">Download</a>
+          </div>
+        </li>
+        <li class="material-itemcontainer">
+          <div class="material-items">
+            <img src="assets/illustrations/study.webp" alt="" class="opacity-80">
+            <h3>JEE Advanced Pervious Year Question</h3>
+            <a href="https://jeewithajay.classx.co.in/study-material">Download</a>
+          </div>
+        </li>
+        <li class="material-itemcontainer">
+          <div class="material-items">
+            <img src="assets/illustrations/pyq.webp" alt="">
+            <h3>Previous year jee mains paper
+            </h3>
+            <a href="https://jeewithajay.classx.co.in/study-material">Download</a>
+          </div>
+        </li>
+        <li class="material-itemcontainer">
+          <div class="material-items">
+            <img src="assets/illustrations/syllabus.webp" alt="">
+            <h3>Progress trackers 
+            </h3>
+            <a href="https://jeewithajay.classx.co.in/study-material">Download</a>
+          </div>
+        </li>
+        <li class="material-itemcontainer">
+          <div class="material-items">
+            <img src="assets/illustrations/challenge.webp" alt="">
+            <h3>11 day challenge</h3>
+            <a href="https://jeewithajay.classx.co.in/study-material">Download</a>
+          </div>
+        </li>
+
+
+      </div>
+    </section>
+
+    <!-- Topper Section Even though it is written review Section-->
+    <section id="reviews" class="h-fit flex items-center flex-col">
+      <h2 class="center-item"><span class="highligted-text">Testimonials</span> </h2>
+      <div id="reviewCenter"
+        class=" w-screen md:w-[90vw] flex items-center p-3 relative overflow-x-hidden rfm-marquee-container">
+        <ul id="reviewItem-container" class="rfm-marquee reviewItem-container flex h-fit w-fit">
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>Didi, first of all i wanna thank you... She listens to all our problems
+                and cools me down when I am worrying abt boards and jee. The 7 days plan is so good amd relavent that it
+                suits me soo well... I also told my friend about and 2 of them already took this mentorship.. Thank you
+                soo much Ajay bhaiya. </p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>Quite amazing. I. Can ask my problems my demotivating factors to the members of this mentorship. They
+                gave advice like own siblings.They track our path, we're chosing correct or not. Make planners to show
+                us that jee is still possible. Basically in 1000/yr ruppes they're doing work of 1000/week. </p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>The mentorship is far better than other mentorship programmes ..the actual practical tips given by you
+                and bhaiyaa helped me a lot.. mentorship helped me to prepare better and smartly in short period of time
+                because I started in mid nov ..so thanks a lot for guiding me bhaiyaa and didi</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>In our jee aspirant life there is so much questions in our mind and we have to cross these question. so
+                we dont know ki ham sahi kar rahe h ya nahi but if we follow our mentor then we got our answer correctly
+                I think this mentorship is better for you if u have any doubts about jee U can handled it from it
+                According to me JOIN IT......</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>I think you should change the name from Zidd mentorship to paisa wasool mentorship .the test
+                series we are getting in this mentorship i think its worth is like 10k but i have get the mentorship
+                less than 4000 rs and the mentor is very supportive so i think this is the best mentorship i have seen
+                and thank you bhaiya for providing us mentorship at such low cost and keep the good work going</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>Very grateful ki Maine apki mentorship li. Mujhe abhi 1 week se upar ho gaya hai.aur Saturday ko Didi
+                and Sunday ko Ajay bhaiya ka grp session attain karne ke baad next week pura motivated rehe kar padhai
+                hui hai. Aur apne aap discipline aa gayi.
+                Mentorship bohot affordable hai isliye
+                parents bhi maan gaye jaldi so thank you so much for that.</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>Itne kam paise mein mentorship shayad hi kahin milengi matlab Ajay bhaiya, didi se jab poochna chaho jo
+                bhi doubt ho turant meet lekar hamare doubts ko solve karte hai online material bhi provide karate hai
+                ye mentorship u ke saath shayad aakhri hai
+                magar haa dono bhaiya didi apna most of the time hum students ke saath interact karte hai</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>Mentorship program is very supportive and helpful for me Bcz:- 1)before mentorship most of the my time
+                goes in making strategy . so I can't study properly but after mentorship session I have to only study
+                and follow the planner. 2) all doubts clear easily about preparation... 3)
+                motivation+Strategy+clear doubts=Zidd mentorship program.</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>I have come across one of the best mentorship, didi and Ajay bhaiya are best, they are always there to
+                help and motivate me to do more and more better in my studies my study hour's have drastically increased
+                from 6 hrs to 12+ hours, I am now more confident. I hope everything goes as planned.</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>Everything is 10/10 my preparation is on track I've been getting 190+ from last month in 3 coaching
+                test and 3 in my self analysis tests Bhaiya's weekly session charge my motivation mood I'm still doing
+                questions solving atleast 7 hours excluding coaching lecture "NOW MY HEART is working like an engine" -
+                "THE inside me won't blow out"</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>This mentorship is amazing. Maine yaha aake bahut si nayi baate sikhi h. Both mentors are good. Ajay
+                bhaiya jo weekly session lete hai bahut badhiya lagta h usme, and didi wo to bahut badhiya mentor h
+                unke Karan hi mai itne efforts laga paa raha hun. Ye mentorship na hoti to mai bilkul bhi efforts nhi
+                laga pata After my jee mains, mai aap dono se milne apke college zarur aaunga</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>I just love this mentorship.daily meet session, proper weekly schedule,all materials for solving and
+                lecture, motivation, everything is here ...i really impressed and confident that through this guidance i
+                can. Score enough in jee .but i have a little disappointment at the schedule. I want some details in
+                schedule like day wise planner, today just do this this and this, tommorow just do this much.lecture
+                hour revision hour and solving hour. If this will improve then everything will shorted from my side..
+                otherwise everything is best .i will request to vaya that in the weekly planner there should be daily
+                planner too.</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>In our jee aspirant life there is so much questions in our mind and we have to cross these question. so
+                we dont know ki ham sahi kar rahe h ya nahi but if we follow our mentor then we got our answer correctly
+                I think this mentorship is better for you if u have any doubts about jee U can handled it from it
+                According to me JOIN IT......</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>Ajay bhaiya gives the best guidance and helps by treating us like a younger brother. didi helps a lot
+                in solving my doubts no matter how small they are all the time. There is not a single time in which I do
+                not find motivation after talking to them. It is by their method only that I could finish my theory
+                being a dropper 4 months earlier along with question practice. Their methods have led me from getting 60
+                to 70 in the mocks to an average of 210. Never thought that I will get so much from u by paying such a
+                small price. So a big thanks to ajay bhaiya and didi. THANK YOU</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>muje First mai kuch pata nahi tha isliye nervous tha, na kisi se online mai vedio call mai baat kiya
+                tha na aise chezo kha kuch gyan tha but jab maine mentorship kho join khiya tabhi didi ne sabkuch
+                explain kardiya tha and baad mai bhaiya se baat hua, Aisa laga khi Dil khe baar full kalkha hua ho baad
+                me didi ne sab lecture, books, question practice sab kuch de diya and ek target bhi diya isse muje ab
+                lagne lagne laga hai khi kar sagtha hu yaar jee phod sagtha overall full bahut useful lagi, didi bhaiya
+                bhahut acche hai aur bhahut helpful hai.</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>didi op kuch bhi puch lo literally anything vo tumhen har cheez ka solution bta dengi koi bhi problem
+                ho time table plan
+                books recommendation everything but at the at vo tumhe sab kuch de denge but at the end karna tumhe hi
+                hai tum unko to do list bhejo vo tumhein puch lenge kuch or add karna hoga list mejn to but at the end
+                unke saath aligned rahi agar tune unki baat maan li to gaurntee 200+ but the difficult part is to be
+                consistent and that would be possible by
+                there weekly live sessions.</p>
+            </div>
+          </li>
+
+        </ul>
+        <ul id="reviewItem-container" class="rfm-marquee reviewItem-container flex h-fit w-fit">
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>Didi, first of all i wanna thank you... She listens to all our problems
+                and cools me down when I am worrying abt boards and jee. The 7 days plan is so good amd relavent that it
+                suits me soo well... I also told my friend about and 2 of them already took this mentorship.. Thank you
+                soo much Ajay bhaiya. </p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>Quite amazing. I. Can ask my problems my demotivating factors to the members of this mentorship. They
+                gave advice like own siblings.They track our path, we're chosing correct or not. Make planners to show
+                us that jee is still possible. Basically in 1000/yr ruppes they're doing work of 1000/week. </p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>The mentorship is far better than other mentorship programmes ..the actual practical tips given by you
+                and bhaiyaa helped me a lot.. mentorship helped me to prepare better and smartly in short period of time
+                because I started in mid nov ..so thanks a lot for guiding me bhaiyaa and didi</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>In our jee aspirant life there is so much questions in our mind and we have to cross these question. so
+                we dont know ki ham sahi kar rahe h ya nahi but if we follow our mentor then we got our answer correctly
+                I think this mentorship is better for you if u have any doubts about jee U can handled it from it
+                According to me JOIN IT......</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>I think you should change the name from ungli pakkad mentorship to paisa wasool mentorship .the test
+                series we are getting in this mentorship i think its worth is like 10k but i have get the mentorship
+                less than 4000 rs and the mentor is very supportive so i think this is the best mentorship i have seen
+                and thank you bhaiya for providing us mentorship at such low cost and keep the good work going</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>Very grateful ki Maine apki mentorship li. Mujhe abhi 1 week se upar ho gaya hai.aur Saturday ko Didi
+                and Sunday ko Ajay bhaiya ka grp session attain karne ke baad next week pura motivated rehe kar padhai
+                hui hai. Aur apne aap discipline aa gayi.
+                Mentorship bohot affordable hai isliye
+                parents bhi maan gaye jaldi so thank you so much for that.</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>Itne kam paise mein mentorship shayad hi kahin milengi matlab Ajay bhaiya, didi se jab poochna chaho jo
+                bhi doubt ho turant meet lekar hamare doubts ko solve karte hai online material bhi provide karate hai
+                ye mentorship u ke saath shayad aakhri hai
+                magar haa dono bhaiya didi apna most of the time hum students ke saath interact karte hai</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>Mentorship program is very supportive and helpful for me Bcz:- 1)before mentorship most of the my time
+                goes in making strategy . so I can't study properly but after mentorship session I have to only study
+                and follow the planner. 2) all doubts clear easily about preparation... 3)
+                motivation+Strategy+clear doubts=Zidd mentorship program.</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>I have come across one of the best mentorship, didi and Ajay bhaiya are best, they are always there to
+                help and motivate me to do more and more better in my studies my study hour's have drastically increased
+                from 6 hrs to 12+ hours, I am now more confident. I hope everything goes as planned.</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>Everything is 10/10 my preparation is on track I've been getting 190+ from last month in 3 coaching
+                test and 3 in my self analysis tests Bhaiya's weekly session charge my motivation mood I'm still doing
+                questions solving atleast 7 hours excluding coaching lecture "NOW MY HEART is working like an engine" -
+                "THE inside me won't blow out"</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>This mentorship is amazing. Maine yaha aake bahut si nayi baate sikhi h. Both mentors are good. Ajay
+                bhaiya jo weekly session lete hai bahut badhiya lagta h usme, and didi wo to bahut badhiya mentor h
+                unke Karan hi mai itne efforts laga paa raha hun. Ye mentorship na hoti to mai bilkul bhi efforts nhi
+                laga pata After my jee mains, mai aap dono se milne apke college zarur aaunga</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>I just love this mentorship.daily meet session, proper weekly schedule,all materials for solving and
+                lecture, motivation, everything is here ...i really impressed and confident that through this guidance i
+                can. Score enough in jee .but i have a little disappointment at the schedule. I want some details in
+                schedule like day wise planner, today just do this this and this, tommorow just do this much.lecture
+                hour revision hour and solving hour. If this will improve then everything will shorted from my side..
+                otherwise everything is best .i will request to vaya that in the weekly planner there should be daily
+                planner too.</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>In our jee aspirant life there is so much questions in our mind and we have to cross these question. so
+                we dont know ki ham sahi kar rahe h ya nahi but if we follow our mentor then we got our answer correctly
+                I think this mentorship is better for you if u have any doubts about jee U can handled it from it
+                According to me JOIN IT......</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>Ajay bhaiya gives the best guidance and helps by treating us like a younger brother. didi helps a lot
+                in solving my doubts no matter how small they are all the time. There is not a single time in which I do
+                not find motivation after talking to them. It is by their method only that I could finish my theory
+                being a dropper 4 months earlier along with question practice. Their methods have led me from getting 60
+                to 70 in the mocks to an average of 210. Never thought that I will get so much from u by paying such a
+                small price. So a big thanks to ajay bhaiya and didi. THANK YOU</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>muje First mai kuch pata nahi tha isliye nervous tha, na kisi se online mai vedio call mai baat kiya
+                tha na aise chezo kha kuch gyan tha but jab maine mentorship kho join khiya tabhi didi ne sabkuch
+                explain kardiya tha and baad mai bhaiya se baat hua, Aisa laga khi Dil khe baar full kalkha hua ho baad
+                me didi ne sab lecture, books, question practice sab kuch de diya and ek target bhi diya isse muje ab
+                lagne lagne laga hai khi kar sagtha hu yaar jee phod sagtha overall full bahut useful lagi, didi bhaiya
+                bhahut acche hai aur bhahut helpful hai.</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="review-video">
+              <span>"</span>
+              <p>didi op kuch bhi puch lo literally anything vo tumhen har cheez ka solution bta dengi koi bhi problem
+                ho time table plan
+                books recommendation everything but at the at vo tumhe sab kuch de denge but at the end karna tumhe hi
+                hai tum unko to do list bhejo vo tumhein puch lenge kuch or add karna hoga list mejn to but at the end
+                unke saath aligned rahi agar tune unki baat maan li to gaurntee 200+ but the difficult part is to be
+                consistent and that would be possible by
+                there weekly live sessions.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="work" class="center-item flex-col h-[50vh]">
+      <h1>Work with FnS team</h1>
+      <p class="text-center text-xl">Help your juniors and start <span class="highligted-text">earning</span> by
+        sharing
+        your
+        valuable insights as a Mentor <br> <a target="_blank" href="https://forms.gle/KB3XvYqSfHreuaMAA"
+          class="font-semibold text-[#DF4658] hover:underline">click here</a> </p>
+
+      <span>Contact Us :- 7988115265</span>
+    </section>
+
+    <footer class="w-screen mt-20 mb-1 flex justify-center text-[--secondary-color] flex-col">
+      <div class="flex justify-around items-center w-64 self-center">
+        <a href="https://www.youtube.com/@Ajay_Singh" class="flex">
+          <img src="assets/youtube.png" alt="" width="50" class="rounded-full">
+        </a>
+        <a href="https://www.instagram.com/fastandstudious_ajay?igsh=MWExZXpobmQ0eGd2aw==" target="_blank"
+          class="mx-1"><img src="assets/Instagram.webp" alt="" width="50"></a>
+        <a href="https://t.me/Fast_Studious_2022" target="_blank" class="mx-1"><img src="assets/telegram.png" alt=""
+            width="50"></a>
+      </div>
+
+
+      <div class="center-item text-gray-400 mt-10 mb-2">
+        <p class="w-fit text-[0.9em] text-center">&copy; 2025. All rights
+          reserved.<br> Website by <a href="https://lavdewangan1.github.io/portfolio/" target="_blank"
+            class="text-gray-800">Lav Dewangan</a></p>
+      </div>
+
+
+    </footer>
+
+  </div>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.7/odometer.min.js"
+    integrity="sha512-v3fZyWIk7kh9yGNQZf1SnSjIxjAKsYbg6UQ+B+QxAZqJQLrN3jMjrdNwcxV6tis6S0s1xyVDZrDz9UoRLfRpWw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+    integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+    integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
